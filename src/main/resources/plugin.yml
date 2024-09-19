@@ -1,0 +1,7 @@
+name: skFreaky
+authors: [ Staffell ]
+description: Plugin Description
+api-version: 1.13
+version: 1.0.0
+depend: [Skript]
+main: com.staffell.skFreaky.Main

@@ -1,17 +1,67 @@
 package com.staffell.skFreaky;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+import ch.njol.skript.Skript;
+import ch.njol.skript.SkriptAddon;
+import ch.njol.skript.util.Version;
+import lombok.Getter;
+import org.bukkit.plugin.Plugin;
+import org.bukkit.plugin.PluginManager;
+import org.bukkit.plugin.java.JavaPlugin;
+import org.jetbrains.annotations.Nullable;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+import java.io.IOException;
+
+public final class Main extends JavaPlugin {
+
+    @Getter
+    private Main instance;
+    // If this is your first experience with Lombok, the @Getter basically just makes a getter method behind the scenes.
+    private static SkriptAddon addon;
+
+    @Nullable
+    public static SkriptAddon getAddonInstance() {
+        return addon;
+    }
+
+    @Override
+    public void onEnable() {
+
+        final PluginManager manager = this.getServer().getPluginManager();
+        final Plugin skript = manager.getPlugin("Skript");
+        if (skript == null || !skript.isEnabled()) {
+            getLogger().severe("Could not find Skript! Disabling...");
+            manager.disablePlugin(this);
+            return;
+        } else if (Skript.getVersion().compareTo(new Version(2, 9, 2)) < 0) { // You may remove this if you want.
+            getLogger().severe("You are running an unsupported version of Skript. Disabling...");
+            manager.disablePlugin(this);
+            return;
         }
+        if (!Skript.isAcceptRegistrations()) {
+            getLogger().severe("The plugin can't load when it's already loaded! Disabling...");
+            manager.disablePlugin(this);
+            return;
+        }
+
+        int pluginId = 23405 ; // Input your bStats plugin ID here, if you do not wish to use bStats, you may remove this section.
+        Metrics metrics = new Metrics(this, pluginId);
+        metrics.addCustomChart(new Metrics.SimplePie("skript_version", () -> Skript.getVersion().toString()));
+
+        addon = Skript.registerAddon(this);
+        addon.setLanguageFileDirectory("lang");
+
+        try {
+            addon.loadClasses("com.staffell.skFreaky");
+        } catch (IOException error) {
+            error.printStackTrace();
+            manager.disablePlugin(this);
+            return;
+        }
+        getLogger().info("Successfully loaded skFreaky.");
+    }
+
+    @Override
+    public void onDisable() {
+        // Plugin shutdown logic
     }
 }
