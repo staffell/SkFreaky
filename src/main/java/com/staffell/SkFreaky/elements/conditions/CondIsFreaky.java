@@ -1,4 +1,4 @@
-package com.staffell.skFreaky.elements.conditions;
+package com.staffell.SkFreaky.elements.conditions;
 
 import ch.njol.skript.Skript;
 import ch.njol.skript.doc.*;

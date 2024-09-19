@@ -1,8 +1,5 @@
-package com.staffell.skFreaky.elements.expressions;
+package com.staffell.SkFreaky.elements.expressions;
 
-import java.util.regex.Pattern;
-
-import ch.njol.skript.SkriptConfig;
 import org.bukkit.event.Event;
 import org.eclipse.jdt.annotation.Nullable;
 
@@ -16,7 +13,6 @@ import ch.njol.skript.lang.ExpressionType;
 import ch.njol.skript.lang.SkriptParser.ParseResult;
 import ch.njol.skript.lang.util.SimpleExpression;
 import ch.njol.util.Kleenean;
-import ch.njol.util.StringUtils;
 
 /**
  * @author Peter Güttinger

@@ -12,7 +12,7 @@
  *
  * Violations will result in a ban of your plugin and account from bStats.
  */
-package com.staffell.skFreaky;
+package com.staffell.SkFreaky;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;

@@ -1,4 +1,4 @@
-package com.staffell.skFreaky;
+package com.staffell.SkFreaky;
 
 import ch.njol.skript.Skript;
 import ch.njol.skript.SkriptAddon;
