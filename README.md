@@ -1,1 +1,1 @@
-skibidi rizz
+Test addon mainly intended for learning
