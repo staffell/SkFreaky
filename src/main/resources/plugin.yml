@@ -3,6 +3,6 @@ authors: [ Staffell ]
 description: Plugin Description
 website: https://github.com/staffell/SkFreaky
 api-version: 1.13
-version: 1.0.0
+version: 1.0
 depend: [Skript]
 main: com.staffell.SkFreaky.Main
