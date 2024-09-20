@@ -57,7 +57,7 @@ public final class Main extends JavaPlugin {
             manager.disablePlugin(this);
             return;
         }
-        getLogger().info("Successfully loaded skFreaky.");
+        getLogger().info("Successfully got Freaky.");
     }
 
     @Override
