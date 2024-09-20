@@ -50,8 +50,9 @@ public class ExprSplitAtFirst extends SimpleExpression<String> {
     protected String[] get(Event event) {
         String input = this.strings.getSingle(event);
         if (input == null) return null;
-        assert delimiter != null;
-        return input.split(delimiter.toString(), 1);
+        String del = delimiter.getSingle(event);
+        if (del == null) return null;
+        return input.split(del, 1);
     }
 
     @Override
