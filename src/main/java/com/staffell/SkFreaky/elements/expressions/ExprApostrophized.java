@@ -31,8 +31,6 @@ public class ExprApostrophized extends SimpleExpression<String> {
 
     @SuppressWarnings("null")
     private Expression<String> string;
-    @Nullable
-    private Expression<String> delimiter;
 
     @Override
     @SuppressWarnings({"unchecked", "null"})

@@ -1,6 +1,5 @@
 package com.staffell.SkFreaky.elements.expressions;
 
-import ch.njol.skript.SkriptConfig;
 import ch.njol.skript.Skript;
 import ch.njol.skript.doc.Description;
 import ch.njol.skript.doc.Examples;
@@ -17,19 +16,18 @@ import org.eclipse.jdt.annotation.Nullable;
 /**
  * @author Staffell
  */
+
 @Name("Split at first")
 @Description("Splits a string at the first occurrence of the given delimiter")
 @Examples("send split \"Hello there, world!\" at first \" \" # would send \"Hello\" and \"there, world!\"")
 @Since("1.0")
 public class ExprSplitAtFirst extends SimpleExpression<String> {
-
     static {
         Skript.registerExpression(ExprSplitAtFirst.class, String.class, ExpressionType.COMBINED,
-                "split %string% at [the] first [occurrence of [delimiter]] %string% [case:with case sensitivity]",
-                "%string% split at [the] first [occurrence of [delimiter]] %string% [case:with case sensitivity]");
+                "split %string% at [the] first [occurrence of [delimiter]] %string%",
+                "%string% split at [the] first [occurrence of [delimiter]] %string%");
     }
 
-    private boolean caseSensitivity;
 
     @SuppressWarnings("null")
     private Expression<String> strings;
@@ -41,7 +39,6 @@ public class ExprSplitAtFirst extends SimpleExpression<String> {
     public boolean init(Expression<?>[] exprs, int matchedPattern, Kleenean isDelayed, ParseResult parseResult) {
         strings = (Expression<String>) exprs[0];
         delimiter = (Expression<String>) exprs[1];
-        caseSensitivity = SkriptConfig.caseSensitive.value() || parseResult.hasTag("case");
         return true;
     }
 
@@ -57,7 +54,7 @@ public class ExprSplitAtFirst extends SimpleExpression<String> {
 
     @Override
     public boolean isSingle() {
-        return false;
+        return true;
     }
 
     @Override

@@ -32,6 +32,7 @@ public class CondIsFreaky extends Condition {
     private boolean negate;
 
     @Override
+    @SuppressWarnings("unchecked")
     public boolean init(Expression<?> @NotNull [] exprs, int matchedPattern, Kleenean isDelayed, ParseResult parseResult) {
         entityExpr = (Expression<Entity>) exprs[0];
         negate = matchedPattern == 1;
