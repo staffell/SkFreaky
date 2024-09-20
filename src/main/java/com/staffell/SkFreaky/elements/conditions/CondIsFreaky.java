@@ -12,6 +12,10 @@ import org.bukkit.event.Event;
 import org.eclipse.jdt.annotation.Nullable;
 import org.jetbrains.annotations.NotNull;
 
+/**
+ * @author Staffell
+ */
+
 @Name("Is Freaky")
 @Description("Checks if an entity is freaky.")
 @Examples("if target entity is freaky:")

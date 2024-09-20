@@ -15,7 +15,7 @@ import ch.njol.skript.lang.util.SimpleExpression;
 import ch.njol.util.Kleenean;
 
 /**
- * @author Peter Güttinger
+ * @author Staffell
  */
 @Name("Apostrophize")
 @Description("Joins a string with \"'\"")
