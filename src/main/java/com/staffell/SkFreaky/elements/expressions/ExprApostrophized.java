@@ -20,7 +20,7 @@ import ch.njol.util.Kleenean;
 @Name("Apostrophize")
 @Description("Joins a string with \"'\"")
 @Examples("send apostrophized \"Hello World!\" # would output \"H'e'l'l'o' 'W'o'r'l'd'!'\"")
-@Since("2.1, 2.5.2 (regex support), 2.7 (case sensitivity)")
+@Since("1.0")
 public class ExprApostrophized extends SimpleExpression<String> {
 
     static {
