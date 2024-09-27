@@ -48,8 +48,8 @@ public class ExprSplitAtFirst extends SimpleExpression<String> {
         String input = this.strings.getSingle(event);
         if (input == null) return null;
         String del = delimiter.getSingle(event);
-        if (del == null) return null;
-        return input.split(del, 1);
+        if (del == null) return input.split("", 2);
+        return input.split(del, 2);
     }
 
     @Override

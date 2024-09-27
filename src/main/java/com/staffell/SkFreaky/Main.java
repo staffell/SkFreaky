@@ -51,7 +51,7 @@ public final class Main extends JavaPlugin {
         addon.setLanguageFileDirectory("lang");
 
         try {
-            addon.loadClasses("com.staffell.skFreaky");
+            addon.loadClasses("com.staffell.SkFreaky");
         } catch (IOException error) {
             error.printStackTrace();
             manager.disablePlugin(this);
