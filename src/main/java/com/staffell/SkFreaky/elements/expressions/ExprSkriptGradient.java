@@ -18,9 +18,10 @@ import ch.njol.util.Kleenean;
 /**
  * @author Staffell
  */
+
 @Name("Skript Gradient")
-@Description("Joins a string with \"'\"")
-@Examples("send apostrophized \"Hello World!\" # would output \"H'e'l'l'o' 'W'o'r'l'd'!'\"")
+@Description("Replaces \"&#\" gradients with \"<#>\" gradients")
+@Examples("send skript gradient of player's prefix")
 @Since("1.0")
 public class ExprSkriptGradient extends SimpleExpression<String> {
 

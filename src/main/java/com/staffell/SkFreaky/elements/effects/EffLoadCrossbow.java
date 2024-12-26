@@ -42,11 +42,12 @@ public class EffLoadCrossbow extends Effect { // To register an effect, extend t
 
     @Override
     protected void execute(Event event) {
-        ItemType[] mats = material.getArray(event);
         ArrayList<ItemStack> list = new ArrayList<>();
-        for (ItemType thisItem : mats) {
+        for (ItemType thisItem : material.getArray(event)) {
             for (int i = 0; i < thisItem.getAmount(); i++) {
-                list.add(new ItemStack(thisItem.getMaterial()));
+                for (ItemStack item : thisItem.getAll()) {
+                    list.add(item);
+                }
             }
         }
         List<ItemStack> list1 = list.subList(0, list.size());
