@@ -1,0 +1,29 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.9.2
+
+-colorformat::§0, string, 80093C233030303030303E
+-colorformat::§1, string, 80093C233030303041413E
+-colorformat::§2, string, 80093C233030414130303E
+-colorformat::§3, string, 80093C233030414141413E
+-colorformat::§4, string, 80093C234141303030303E
+-colorformat::§5, string, 80093C234141303041413E
+-colorformat::§6, string, 80093C234646414130303E
+-colorformat::§7, string, 80093C234141414141413E
+-colorformat::§8, string, 80093C233535353535353E
+-colorformat::§9, string, 80093C233535353546463E
+-colorformat::§a, string, 80093C233535464635353E
+-colorformat::§b, string, 80093C233535464646463E
+-colorformat::§c, string, 80093C234646353535353E
+-colorformat::§d, string, 80093C234646353546463E
+-colorformat::§e, string, 80093C234646464635353E
+-colorformat::§f, string, 80093C234646464646463E
+-colorformat::§l, string, 80063C626F6C643E
+-colorformat::§m, string, 800F3C737472696B657468726F7567683E
+-colorformat::§n, string, 800C3C756E6465726C696E65643E
+-colorformat::§o, string, 80083C6974616C69633E
+-colorformat::§r, string, 80073C72657365743E
+chatcolor::74364ca5-f6be-4b6e-8919-e9bd9402154a, string, 8006666666666666
+displays::74364ca5-f6be-4b6e-8919-e9bd9402154a, long, 0000000000000000
+
