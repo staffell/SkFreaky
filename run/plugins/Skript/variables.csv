@@ -1,0 +1,8 @@
+# === Skript's variable storage ===
+# Please do not modify this file manually!
+#
+# version: 2.10.0
+
+chatcolor::74364ca5-f6be-4b6e-8919-e9bd9402154a, string, 800472616E6B
+displays::74364ca5-f6be-4b6e-8919-e9bd9402154a, long, 0000000000000000
+
