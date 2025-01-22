@@ -13,9 +13,6 @@ import ch.njol.util.Kleenean;
 import org.bukkit.event.Event;
 import org.eclipse.jdt.annotation.Nullable;
 
-/**
- * @author Staffell
- */
 
 @Name("Split at first")
 @Description("Splits a string at the first occurrence of the given delimiter")

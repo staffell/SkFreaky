@@ -14,9 +14,7 @@ import ch.njol.skript.lang.SkriptParser.ParseResult;
 import ch.njol.skript.lang.util.SimpleExpression;
 import ch.njol.util.Kleenean;
 
-/**
- * @author Staffell
- */
+
 @Name("Apostrophize")
 @Description("Joins a string with \"'\"")
 @Examples("send apostrophized \"Hello World!\" # would output \"H'e'l'l'o' 'W'o'r'l'd'!'\"")

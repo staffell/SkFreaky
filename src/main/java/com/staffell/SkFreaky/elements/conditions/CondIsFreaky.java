@@ -12,9 +12,6 @@ import org.bukkit.event.Event;
 import org.eclipse.jdt.annotation.Nullable;
 import org.jetbrains.annotations.NotNull;
 
-/**
- * @author Staffell
- */
 
 @Name("Is Freaky")
 @Description("Checks if an entity is freaky (in love mode)")
@@ -52,7 +49,6 @@ public class CondIsFreaky extends Condition {
 
     @Override
     public String toString(@Nullable Event e, boolean debug) {
-        //return (entityExpr == null ? "" : (" of " + (e == null ? "" : entityExpr.toString(e, debug))));
         return entityExpr.toString(e, debug) + " is " + (negate ? "n't " : " ") + "freaky";
     }
 }

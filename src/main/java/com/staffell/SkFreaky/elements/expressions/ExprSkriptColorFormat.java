@@ -15,9 +15,6 @@ import ch.njol.skript.lang.SkriptParser.ParseResult;
 import ch.njol.skript.lang.util.SimpleExpression;
 import ch.njol.util.Kleenean;
 
-/**
- * @author Staffell
- */
 
 @Name("Skript Gradient")
 @Description("Replaces \"&#\" gradients with \"<#>\" gradients")

@@ -6,14 +6,9 @@ import ch.njol.skript.expressions.base.SimplePropertyExpression;
 import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.SkriptParser;
 import ch.njol.util.Kleenean;
-import com.staffell.SkFreaky.util.Utils;
 import org.bukkit.OfflinePlayer;
+import com.staffell.SkFreaky.util.Utils;
 import org.eclipse.jdt.annotation.Nullable;
-
-
-/**
- * @author Staffell
- */
 
 
 @Name("Offline Prefix/Suffix")

@@ -14,9 +14,6 @@ import org.bukkit.inventory.meta.CrossbowMeta;
 import org.eclipse.jdt.annotation.Nullable;
 import org.jetbrains.annotations.NotNull;
 
-/**
- * @author Staffell
- */
 
 @Name("Crossbow is loaded with")
 @Description("Checks if a crossbow is loaded with a certain item (or at all)")
