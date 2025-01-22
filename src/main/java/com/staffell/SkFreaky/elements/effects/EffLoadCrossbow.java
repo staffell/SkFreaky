@@ -56,16 +56,14 @@ public class EffLoadCrossbow extends Effect { // To register an effect, extend t
             if (!(itemStack.getItemMeta() instanceof CrossbowMeta meta)) {
                 continue;
             }
-            if (meta != null) {
-                meta.setChargedProjectiles(list1);
-                if (object instanceof Slot slot) {
-                    itemStack.setItemMeta(meta);
-                    slot.setItem(itemStack);
-                } else if (object instanceof ItemType crossbow) {
-                    crossbow.setItemMeta(meta);
-                } else if (object instanceof ItemStack crossbow) {
-                    crossbow.setItemMeta(meta);
-                }
+            meta.setChargedProjectiles(list1);
+            if (object instanceof Slot slot) {
+                itemStack.setItemMeta(meta);
+                slot.setItem(itemStack);
+            } else if (object instanceof ItemType crossbow) {
+                crossbow.setItemMeta(meta);
+            } else if (object instanceof ItemStack crossbow) {
+                crossbow.setItemMeta(meta);
             }
         }
     }

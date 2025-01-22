@@ -5,485 +5,157 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18eff287-0214-47ee-a87e-cd678fff6fc3" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.8/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.8/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.8/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/SkFreaky.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.staffell.skFreaky.SkFreaky.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Metrics$AdvancedBarChart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Metrics$AdvancedPie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Metrics$CustomChart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Metrics$DrilldownPie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Metrics$JsonObjectBuilder$JsonObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Metrics$JsonObjectBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Metrics$MetricsBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Metrics$MultiLineChart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Metrics$SimpleBarChart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Metrics$SimplePie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Metrics$SingleLineChart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Metrics.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/conditions/CondCrossbowIsLoaded.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/conditions/CondIsFreaky.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/effects/EffLoadCrossbow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/expressions/ExprApostrophized.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/expressions/ExprSkriptGradient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/expressions/ExprSplitAtFirst.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/SkFreaky-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/lang/default.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/main/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/CondCrossbowIsLoaded.class.uniqueId0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/banned-ips.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/banned-players.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/bukkit.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/cache/mojang_1.21.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/commands.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/config/paper-global.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/config/paper-world-defaults.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-09-19_16.36.06-server.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/eula.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/help.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/destroystokyo/paper/paper-mojangapi/1.21.1-R0.1-SNAPSHOT/paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/lmax/disruptor/3.4.4/disruptor-3.4.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/mojang/authlib/6.0.54/authlib-6.0.54.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/mysql/mysql-connector-j/8.4.0/mysql-connector-j-8.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/com/velocitypowered/velocity-native/3.3.0-SNAPSHOT/velocity-native-3.3.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/leangen/geantyref/geantyref/1.3.16/geantyref-1.3.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-codec-haproxy/4.1.97.Final/netty-codec-haproxy-4.1.97.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/papermc/asm-utils/0.0.3/asm-utils-0.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/papermc/reflection-rewriter-proxy-generator/0.0.3/reflection-rewriter-proxy-generator-0.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/papermc/reflection-rewriter-runtime/0.0.3/reflection-rewriter-runtime-0.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/io/papermc/reflection-rewriter/0.0.3/reflection-rewriter-0.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/javax/inject/javax.inject/1/javax.inject-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/me/lucko/spark-api/0.1-20240720.200737-2/spark-api-0.1-20240720.200737-2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/me/lucko/spark-paper/1.10.105-SNAPSHOT/spark-paper-1.10.105-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/me/lucko/spark-paper/1.10.119-SNAPSHOT/spark-paper-1.10.119-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-logger-slf4j/4.17.0/adventure-text-logger-slf4j-4.17.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-ansi/4.17.0/adventure-text-serializer-ansi-4.17.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-json/4.17.0/adventure-text-serializer-json-4.17.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-legacy/4.17.0/adventure-text-serializer-legacy-4.17.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/adventure-text-serializer-plain/4.17.0/adventure-text-serializer-plain-4.17.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/ansi/1.0.3/ansi-1.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/kyori/option/1.0.0/option-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/md-5/bungeecord-chat/1.20-R0.2-deprecated+build.18/bungeecord-chat-1.20-R0.2-deprecated+build.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/neoforged/AutoRenamingTool/2.0.3/AutoRenamingTool-2.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/neoforged/installertools/cli-utils/2.1.4/cli-utils-2.1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/neoforged/javadoctor/gson-io/2.0.17/gson-io-2.0.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/neoforged/javadoctor/spec/2.0.17/spec-2.0.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/neoforged/srgutils/1.0.9/srgutils-1.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/net/sf/jopt-simple/jopt-simple/6.0-alpha-3/jopt-simple-6.0-alpha-3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/logging/log4j/log4j-iostreams/2.22.1/log4j-iostreams-2.22.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-artifact/3.9.6/maven-artifact-3.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-builder-support/3.9.6/maven-builder-support-3.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-model-builder/3.9.6/maven-model-builder-3.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-model/3.9.6/maven-model-3.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-repository-metadata/3.9.6/maven-repository-metadata-3.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/maven-resolver-provider/3.9.6/maven-resolver-provider-3.9.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-connector-basic/1.9.18/maven-resolver-connector-basic-1.9.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-impl/1.9.18/maven-resolver-impl-1.9.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-named-locks/1.9.18/maven-resolver-named-locks-1.9.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-spi/1.9.18/maven-resolver-spi-1.9.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-transport-http/1.9.18/maven-resolver-transport-http-1.9.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/apache/maven/resolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/eclipse/sisu/org.eclipse.sisu.inject/0.9.0.M2/org.eclipse.sisu.inject-0.9.0.M2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/fusesource/jansi/jansi/2.4.0/jansi-2.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/jline/jline-terminal-jansi/3.21.0/jline-terminal-jansi-3.21.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/jline/jline-terminal/3.21.0/jline-terminal-3.21.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/ow2/asm/asm/9.7/asm-9.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/spongepowered/configurate-core/4.2.0-SNAPSHOT/configurate-core-4.2.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/spongepowered/configurate-yaml/4.2.0-SNAPSHOT/configurate-yaml-4.2.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/xerial/sqlite-jdbc/3.46.0.0/sqlite-jdbc-3.46.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/libraries/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-10.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-11.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-12.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-13.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-14.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-15.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-16.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-17.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-18.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-19.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-20.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-21.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-22.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-23.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-24.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-25.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-26.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-8.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-18-9.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-19-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-19-10.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-19-11.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-19-12.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-19-13.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-19-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-19-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-19-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-19-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-19-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-19-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-19-8.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-19-9.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-20-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-20-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-10.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-11.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-12.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-13.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-14.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-15.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-16.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-17.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-18.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-19.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-20.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-21.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-22.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-23.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-24.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-25.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-26.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-27.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-28.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-29.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-30.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-31.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-32.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-33.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-34.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-35.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-36.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-37.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-38.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-39.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-40.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-8.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-26-9.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-27-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-27-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-27-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-09-27-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-12-25-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-12-25-2.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-12-25-3.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-12-25-4.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-12-25-5.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-12-25-6.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-12-25-7.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-12-25-8.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-12-25-9.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/ops.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/permissions.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/Hippo.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/SkBee-3.6.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/Skript-2.9.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/Vault.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/extra-plugins/SkFreaky-1.0-1727401375737.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/extra-plugins/SkFreaky-1.0-1735185963843.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/extra-plugins/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/libraries/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/mappings/reversed/2C6AB97F550526F9E7C363EC5352500AFA558525BEDA078A5A3F9673CBEC9CFD.tiny" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/remap-classpath/2C6AB97F550526F9E7C363EC5352500AFA558525BEDA078A5A3F9673CBEC9CFD.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/skript-reflect-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/unknown-origin/index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Hippo.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Hippo/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms-Bukkit-5.4.151.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/contexts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/adventure-4.13.0-remapped.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/adventure-4.13.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/adventure-platform-4.13.0-remapped.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/adventure-platform-4.13.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/adventure-platform-bukkit-4.13.3-remapped.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/adventure-platform-bukkit-4.13.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/asm-9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/asm-commons-9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/bytebuddy-1.10.22-remapped.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/bytebuddy-1.10.22.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/caffeine-2.9.0-remapped.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/caffeine-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/commodore-2.2-remapped.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/commodore-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/commodore-file-1.0-remapped.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/commodore-file-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/event-3.0.0-remapped.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/event-3.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/h2-driver-2.1.214.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/jar-relocator-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/okhttp-3.14.9-remapped.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/okhttp-3.14.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/okio-1.17.5-remapped.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/libs/okio-1.17.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/luckperms-h2-v2.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/ar_SA.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/bg_BG.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/cs_CZ.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/da_DK.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/de_DE.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/el_GR.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/en_PT.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/es_ES.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/fa_IR.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/fi_FI.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/fil_PH.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/fr_FR.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/he_IL.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/hi_IN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/hu_HU.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/id_ID.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/it_IT.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/ja_JP.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/ka_GE.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/ko_KR.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/nl_NL.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/no_NO.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/pl_PL.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/pt_BR.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/ro_RO.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/ru_RU.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/sk_SK.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/sr_CS.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/status.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/sv_SE.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/tr_TR.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/uk_UA.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/vi_VN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/zh_TW.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/SkBee-3.6.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/SkBee/bounds.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/SkBee/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/SkBee/worlds.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript-2.9.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/config.sk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/features.sk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/lang/backups/english_2024-12-25_21-26-45.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/lang/dutch.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/lang/english.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/lang/french.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/lang/german.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/lang/japanese.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/lang/korean.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/lang/polish.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/lang/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/lang/russian.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/lang/simplifiedchinese.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/lang/turkish.lang" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/scripts/bron.sk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/scripts/chat.sk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Skript/variables.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Vault.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/Vault/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/bStats/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/skript-reflect-2.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/spark/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/plugins/spark/tmp-client/about.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/server.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/spigot.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/version_history.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/versions/1.21.1/paper-1.21.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/whitelist.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/advancements/74364ca5-f6be-4b6e-8919-e9bd9402154a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/data/random_sequences.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/datapacks/bukkit/pack.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.0.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.0.-3.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.0.-4.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.1.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.1.-3.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.1.-4.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.1.-5.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.1.-6.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.1.-7.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.2.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.2.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.2.-3.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.2.-4.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.2.-5.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.2.-6.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.2.-7.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/entities/r.3.-5.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/paper-world.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/playerdata/74364ca5-f6be-4b6e-8919-e9bd9402154a.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/playerdata/74364ca5-f6be-4b6e-8919-e9bd9402154a.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.0.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.0.-3.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.0.-5.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.1.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.1.-3.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.1.-4.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.1.-5.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.1.-6.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.1.-7.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.2.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.2.-3.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.2.-4.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.2.-5.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/poi/r.3.-5.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.-1.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.0.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.0.-3.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.0.-4.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.0.-5.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.0.-6.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.0.-7.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.1.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.1.-3.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.1.-4.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.1.-5.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.1.-6.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.1.-7.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.2.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.2.-2.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.2.-3.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.2.-4.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.2.-5.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.2.-6.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.2.-7.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.2.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.3.-4.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.3.-5.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.3.-6.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/region/r.3.-7.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/stats/74364ca5-f6be-4b6e-8919-e9bd9402154a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world/uid.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/entities/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/entities/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/paper-world.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_nether/uid.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/data/raids_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/entities/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/entities/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/entities/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/entities/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.-1.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.0.-1.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/level.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/paper-world.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/session.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/world_the_end/uid.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/staffell/SkFreaky/elements/effects/EffForDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/staffell/SkFreaky/elements/expressions/ExprClosestStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/staffell/SkFreaky/elements/expressions/ExprOffPrefixSuffix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/staffell/SkFreaky/util/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/conditions/CondCrossbowIsLoaded.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/conditions/CondCrossbowIsLoaded.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/conditions/CondIsFreaky.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/conditions/CondIsFreaky.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/effects/EffLoadCrossbow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/effects/EffLoadCrossbow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/expressions/ExprApostrophized.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/expressions/ExprApostrophized.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/expressions/ExprSkriptGradient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/expressions/ExprSkriptGradient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/expressions/ExprSplitAtFirst.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/staffell/SkFreaky/elements/expressions/ExprSplitAtFirst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/SkFreaky-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/SkFreaky-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/CondCrossbowIsLoaded.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/ops.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/ops.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/.paper-remapped/Hippo.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/.paper-remapped/SkBee-3.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/.paper-remapped/Skript-2.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/.paper-remapped/extra-plugins/SkFreaky-1.0-1727401375737.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/.paper-remapped/extra-plugins/SkFreaky-1.0-1735185963843.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/.paper-remapped/extra-plugins/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/extra-plugins/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/.paper-remapped/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/plugins/.paper-remapped/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/.paper-remapped/skript-reflect-2.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/Hippo.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/LuckPerms/luckperms-h2-v2.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/luckperms-h2-v2.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/id_ID.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/id_ID.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/ko_KR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/ko_KR.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/status.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/zh_TW.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/plugins/LuckPerms/translations/repository/zh_TW.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/SkBee-3.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/SkBee/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/run/plugins/SkBee/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/Skript-2.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/Skript/config.sk" beforeDir="false" afterPath="$PROJECT_DIR$/run/plugins/Skript/config.sk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/Skript/scripts/chat.sk" beforeDir="false" afterPath="$PROJECT_DIR$/run/plugins/Skript/scripts/chat.sk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/Skript/variables.csv" beforeDir="false" afterPath="$PROJECT_DIR$/run/plugins/Skript/variables.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/plugins/skript-reflect-2.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/advancements/74364ca5-f6be-4b6e-8919-e9bd9402154a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/data/random_sequences.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/datapacks/bukkit/pack.mcmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.0.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.0.-3.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.0.-4.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.1.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.1.-3.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.1.-4.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.1.-5.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.1.-6.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.1.-7.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.2.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.2.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.2.-3.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.2.-4.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.2.-5.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.2.-6.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.2.-7.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/entities/r.3.-5.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/level.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/level.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/paper-world.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/playerdata/74364ca5-f6be-4b6e-8919-e9bd9402154a.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/playerdata/74364ca5-f6be-4b6e-8919-e9bd9402154a.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.0.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.0.-3.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.0.-5.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.1.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.1.-3.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.1.-4.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.1.-5.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.1.-6.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.1.-7.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.2.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.2.-3.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.2.-4.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.2.-5.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/poi/r.3.-5.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.-1.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.-3.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.-4.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.-5.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.-6.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.-7.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.1.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.1.-3.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.1.-4.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.1.-5.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.1.-6.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.1.-7.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.2.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.2.-2.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.2.-3.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.2.-4.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.2.-5.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.2.-6.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.2.-7.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.2.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.3.-4.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.3.-5.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.3.-6.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/region/r.3.-7.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/session.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/stats/74364ca5-f6be-4b6e-8919-e9bd9402154a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world/uid.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_nether/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_nether/DIM-1/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_nether/DIM-1/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_nether/DIM-1/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_nether/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_nether/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_nether/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_nether/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_the_end/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_the_end/DIM1/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_the_end/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_the_end/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/world_the_end/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/world_the_end/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/staffell/SkFreaky/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/staffell/SkFreaky/SkFreaky.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/staffell/SkFreaky/elements/effects/EffLoadCrossbow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/staffell/SkFreaky/elements/effects/EffLoadCrossbow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/staffell/SkFreaky/elements/expressions/ExprApostrophized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/staffell/SkFreaky/elements/expressions/ExprApostrophized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -525,7 +197,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -551,23 +222,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Gradle.skFreaky [runServer].executor": "Debug",
-    "Remote JVM Debug.Unnamed.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/handy/Downloads/MineResetLite-5.4.1.jar",
-    "onboarding.tips.debug.path": "C:/Users/handy/IdeaProjects/skFreaky/src/main/java/com/staffell/skFreaky/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.skFreaky [runServer].executor&quot;: &quot;Run&quot;,
+    &quot;Remote JVM Debug.Unnamed.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/handy/IdeaProjects/CommandSpy&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/handy/IdeaProjects/skFreaky/src/main/java/com/staffell/skFreaky/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\handy\IdeaProjects\skFreaky\run\plugins" />
@@ -693,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735186179464</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test">
+      <option name="closed" value="true" />
+      <created>1735186478104</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735186478104</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">

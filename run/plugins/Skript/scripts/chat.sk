@@ -1,3 +1,4 @@
+###
 function offlinePrefix(p: offlineplayer) :: text:
 	set {_data} to (instance of the plugin "LuckPerms").getServer().getServicesManager().load(class "net.luckperms.api.LuckPerms").getUserManager().loadUser({_p}.getUniqueId()).get().getCachedData().getMetaData()
 	return (hex({_data}.getPrefix()))
@@ -5,7 +6,7 @@ function offlinePrefix(p: offlineplayer) :: text:
 function offlineSuffix(p: offlineplayer) :: text:
 	set {_data} to (instance of the plugin "LuckPerms").getServer().getServicesManager().load(class "net.luckperms.api.LuckPerms").getUserManager().loadUser({_p}.getUniqueId()).get().getCachedData().getMetaData()
 	return (hex({_data}.getSuffix()))
-
+###
 function rainbow(input: string, wrapAmount: number = -1, lightness: number = 0.5, offset: number = 0) :: string:
     set {_delta} to 360 / ({_wrapAmount} if {_wrapAmount} > 0, else length of {_input})
     set {_lightnessModifier} to (({_lightness}*2)-1) * 255
@@ -26,10 +27,14 @@ function decimalToHexadecimal(number: number) :: string:
 
 
 function unhex(string: string) :: string:
-    return (raw {_string}).replaceAll("<#([a-fA-F0-9]{6})>", "&#$1")
+    set {_string} to text component from {_string}
+    component replace "<#([a-fA-F0-9]{6})>" with "&#$1" in {_string}
+    return raw {_string}
 
 function hex(text: text):: text:
-	return colored {_text}.replaceAll("&#([a-fA-F0-9]{6})", "<#$1>")
+    set {_text} to text component from {_text}
+    component replace "&#([a-fA-F0-9]{6})" with "<#$1>" in {_text}
+    return colored {_text}
 
 on load:
 	set {-colorFormat::&0} to raw "<#000000>"

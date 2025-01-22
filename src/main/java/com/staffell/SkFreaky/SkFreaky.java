@@ -11,10 +11,10 @@ import org.jetbrains.annotations.Nullable;
 
 import java.io.IOException;
 
-public final class Main extends JavaPlugin {
+@Getter
+public final class SkFreaky extends JavaPlugin {
 
-    @Getter
-    private Main instance;
+    private final SkFreaky instance = this;
     // If this is your first experience with Lombok, the @Getter basically just makes a getter method behind the scenes.
     private static SkriptAddon addon;
 
@@ -57,7 +57,7 @@ public final class Main extends JavaPlugin {
             manager.disablePlugin(this);
             return;
         }
-        getLogger().info("Successfully got Freaky.");
+        getLogger().info("Freak is in the house.");
     }
 
     @Override

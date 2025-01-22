@@ -23,8 +23,10 @@ repositories {
 
 dependencies {
     compileOnly (group: 'io.papermc.paper', name: 'paper-api', version: '1.21.1-R0.1-SNAPSHOT')
-    compileOnly (group: 'com.github.SkriptLang', name: 'Skript', version: '2.9.2')
+    compileOnly (group: 'com.github.SkriptLang', name: 'Skript', version: '2.10.0')
     compileOnly 'org.projectlombok:lombok:1.18.34'
     compileOnly "org.eclipse.jdt:org.eclipse.jdt.annotation:1.1.0"
     compileOnly "org.jetbrains:annotations:21.0.1"
+    compileOnly 'net.luckperms:api:5.4'
 }
+

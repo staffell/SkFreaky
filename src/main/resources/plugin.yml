@@ -5,4 +5,4 @@ website: https://github.com/staffell/SkFreaky
 api-version: 1.13
 version: 1.0
 depend: [Skript]
-main: com.staffell.SkFreaky.Main
+main: com.staffell.SkFreaky.SkFreaky

@@ -24,7 +24,7 @@ import ch.njol.util.Kleenean;
 public class ExprApostrophized extends SimpleExpression<String> {
 
     static {
-        Skript.registerExpression(ExprApostrophized.class, String.class, ExpressionType.COMBINED,
+        Skript.registerExpression(ExprOffPrefixSuffix.class, String.class, ExpressionType.COMBINED,
                 "apostrophized %string%");
     }
 

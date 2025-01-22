@@ -31,6 +31,7 @@
 # ==== General Options ====
 
 language: english
+# Which language to use. Currently English, German, Korean, French, Polish, Russian, Japanese, Simplified Chinese, Turkish and Dutch
 # Which language to use. Currently English, German, Korean, French, Polish, Russian, Japanese, Simplified Chinese and Turkish
 # are included in the download, but custom languages can be created as well. Use the name in lowercase and no spaces as the value.
 # Please note that not everything can be translated yet, i.e. parts of Skript will still be english if you use another language.
@@ -170,6 +171,8 @@ disable variable missing and/or warnings: false
 # Disables the "List is missing 'and' or 'or', defaulting to 'and'" warning when reloading your script.
 
 disable starting a variable's name with an expression warnings: false
+# Disables the "Unreachable code. The previous statement stops further execution." warnings.
+disable unreachable code warnings: false
 # Disables the "Starting a variable's name with an expression is discouraged..." warnings
 
 soft api exceptions: false
@@ -229,6 +232,44 @@ player name regex pattern: [a-zA-Z0-9_]{1,16}
 long parse time warning threshold: 0 seconds
 # This setting determines how long a statement can take to parse before Skript produces a warning
 #   stating that the statement has taken a long time to parse.
+# ==== Runtime Errors ====
+runtime errors:
+	frame duration: 1 second
+	# Frames are the duration over which runtime errors will be collected before being sent off to console.
+	# If you find runtime errors to be annoying or clogging your console, you should first fix them!
+	# You can also lengthen this duration to reduce the amount of individual errors printed to console.
+	
+	# -- Errors --
+	total errors per frame: 8
+	# This controls the maximum number of individual errors that will be printed per frame.
+	# If more errors occur, they will be hidden and the frame will simply display that x number of
+	# errors occurred but were hidden this frame.
+	
+	errors from one line per frame: 2
+	# This controls the maximum number of errors a single line can print per frame. This is used to prevent
+	# line from clogging up the frame, like if a syntax was in a 10 iteration loop and errored every time.
+	# It's best to keep this rather low.
+	
+	error spam timeout limit: 4
+	# If a line prints more than this many errors in a single frame, it will be put in timeout. This means
+	# any additional errors it creates during the timeout duration will be hidden, rather than printed.
+	# This is also a defense against a syntax in a loop spamming console with errors.
+	
+	error timeout length: 10
+	# This is the number of frames before a line in timeout can print errors again.
+	# If you lengthen the frame duration, you may want to lower this proportionally.
+	
+	# -- Warnings --
+	# All the above descriptions for errors apply the same here, but for warnings instead.
+	
+	total warnings per frame: 8
+	warnings from one line per frame: 2
+	warning spam timeout limit: 4
+	warning timeout length: 10
+	
+	
+	# ==== Variables ====
+	
 # A value of 0 seconds means that this warning should be disabled.
 
 # ==== Variables ====
@@ -253,7 +294,7 @@ databases:
 		# The type of this database. Allowed values are 'CSV', 'SQLite', 'MySQL' and 'disabled'.
 		# CSV uses a text file to store the variables, while SQLite and MySQL use databases, and 'disabled' makes Skript ignore the database as if it wasn't defined at all.
 		
-		pattern: .*
+		pattern: (?!-).*
 		# Defines which variables to save in this database.
 		# This pattern uses Regex syntax, e.g. use 'db_.*' (without the quotes) to store all variables prefixed with 'db_' in this database,
 		# or use '.*' (the default value) to store all variables here (recommended for the last database in this list, as otherwise some variables might not be saved).
@@ -289,6 +330,11 @@ databases:
 		# Variables are saved constantly no matter what is set here, thus a server crash will never make you loose any variables.
 		# Set this to 0 to disable this feature.
 		
+		# WARNING: Setting to 0 will delete all files located in the backup directory upon plugin start/reload
+		# If disabled (set to -1), no backup files will be deleted.
+		# Backups are removed from oldest to newest.
+		# if set to a value greater than -1, Skript will ensure only that many backups are kept.
+		backups to keep: -1
 		
 	MySQL example:
 		# A MySQL database example, with options unrelated to MySQL removed.
@@ -325,6 +371,7 @@ databases:
 		monitor changes: false
 		monitor interval: 20 seconds
 		
+		backups to keep: -1
 	default:
 		# The default "database" is a simple text file, with each variable on a separate line and the variable's name, type, and value separated by commas.
 		# This is the last database in this list to catch all variables that have not been saved anywhere else.
@@ -332,12 +379,13 @@ databases:
 		
 		type: CSV
 		
-		pattern: .*
+		pattern: (?!-).*
 		
 		file: ./plugins/Skript/variables.csv
 		
 		backup interval: 2 hours
 		
+		backups to keep: -1
 		# PS: If you don't want some variables to be saved in any database (e.g. variables that contain an %entity% which usually despawn when the server is shut down)
 		# you can modify the last database's pattern to not match all variables, e.g. use '(?!x_).*' to match all variables that don't start with 'x_'.
 		# Be very cautious when doing this however as unsaved variables cannot be recovered after the server has been stopped.
@@ -347,7 +395,7 @@ databases:
 		
 		# ==== Settings that should not be changed ====
 		
-version: 2.9.5
+version: 2.10.0
 # DO NOT CHANGE THIS VALUE MANUALLY!
 # This saves for which version of Skript this configuration was written for.
 # If it does not match the version of the .jar file then the config will be updated automatically.
