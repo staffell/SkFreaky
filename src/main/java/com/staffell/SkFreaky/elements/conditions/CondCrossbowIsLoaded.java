@@ -1,7 +1,6 @@
 package com.staffell.SkFreaky.elements.conditions;
 
 import ch.njol.skript.Skript;
-import ch.njol.skript.aliases.ItemData;
 import ch.njol.skript.aliases.ItemType;
 import ch.njol.skript.bukkitutil.ItemUtils;
 import ch.njol.skript.doc.*;
@@ -9,7 +8,6 @@ import ch.njol.skript.lang.Condition;
 import ch.njol.skript.lang.Expression;
 import ch.njol.skript.lang.SkriptParser.ParseResult;
 import ch.njol.util.Kleenean;
-import org.bukkit.Material;
 import org.bukkit.event.Event;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.CrossbowMeta;
@@ -20,9 +18,9 @@ import org.jetbrains.annotations.NotNull;
  * @author Staffell
  */
 
-@Name("Is Freaky")
-@Description("Checks if an entity is freaky (in love mode)")
-@Examples("if target entity is freaky:")
+@Name("Crossbow is loaded with")
+@Description("Checks if a crossbow is loaded with a certain item (or at all)")
+@Examples("send yes to player if player's tool is loaded with an arrow")
 @Since("1.0")
 public class CondCrossbowIsLoaded extends Condition {
 

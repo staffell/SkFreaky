@@ -13,7 +13,7 @@ import java.util.concurrent.ExecutionException;
 
 public class Utils {
     @Nullable
-    public static String getPrefixorSuffix(OfflinePlayer p, Boolean suffix) {
+    public static String getPrefixOrSuffix(OfflinePlayer p, Boolean suffix) {
         RegisteredServiceProvider<LuckPerms> provider = Bukkit.getServicesManager().getRegistration(LuckPerms.class);
         LuckPerms luckPerms = null;
         if (provider != null) {

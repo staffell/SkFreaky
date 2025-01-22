@@ -23,11 +23,11 @@ import ch.njol.util.Kleenean;
 @Description("Replaces \"&#\" gradients with \"<#>\" gradients")
 @Examples("send skript gradient of player's prefix")
 @Since("1.0")
-public class ExprSkriptGradient extends SimpleExpression<String> {
+public class ExprSkriptColorFormat extends SimpleExpression<String> {
 
     static {
-        Skript.registerExpression(ExprSkriptGradient.class, String.class, ExpressionType.COMBINED,
-                "skript gradient of %string%");
+        Skript.registerExpression(ExprSkriptColorFormat.class, String.class, ExpressionType.COMBINED,
+                "skript color [format] of %string%");
     }
 
 

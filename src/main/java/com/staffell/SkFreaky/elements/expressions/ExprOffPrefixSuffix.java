@@ -38,7 +38,7 @@ public class ExprOffPrefixSuffix extends SimplePropertyExpression<OfflinePlayer,
 
     @Override
     public String convert(OfflinePlayer from) {
-        return Utils.getPrefixorSuffix(from, suffix);
+        return Utils.getPrefixOrSuffix(from, suffix);
     }
 
     @Override

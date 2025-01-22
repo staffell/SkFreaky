@@ -15,7 +15,6 @@ import java.io.IOException;
 public final class SkFreaky extends JavaPlugin {
 
     private final SkFreaky instance = this;
-    // If this is your first experience with Lombok, the @Getter basically just makes a getter method behind the scenes.
     private static SkriptAddon addon;
 
     @Nullable
@@ -43,7 +42,7 @@ public final class SkFreaky extends JavaPlugin {
             return;
         }
 
-        int pluginId = 23405 ; // Input your bStats plugin ID here, if you do not wish to use bStats, you may remove this section.
+        int pluginId = 23405;
         Metrics metrics = new Metrics(this, pluginId);
         metrics.addCustomChart(new Metrics.SimplePie("skript_version", () -> Skript.getVersion().toString()));
 

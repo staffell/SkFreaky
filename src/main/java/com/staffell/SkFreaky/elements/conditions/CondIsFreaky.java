@@ -18,7 +18,7 @@ import org.jetbrains.annotations.NotNull;
 
 @Name("Is Freaky")
 @Description("Checks if an entity is freaky (in love mode)")
-@Examples("if target entity is freaky:")
+@Examples("send yes to player if target entity is freaky")
 @Since("1.0")
 public class CondIsFreaky extends Condition {
 
