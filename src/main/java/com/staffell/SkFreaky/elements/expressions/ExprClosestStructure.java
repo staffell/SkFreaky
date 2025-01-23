@@ -25,7 +25,7 @@ import org.eclipse.jdt.annotation.Nullable;
 public class ExprClosestStructure extends SimpleExpression<Location> {
     static {
         Skript.registerExpression(ExprClosestStructure.class, Location.class, ExpressionType.COMBINED,
-                "[the] closest ((not |un)(explored|discovered)|) %string% (in|within) [a] radius [of] %number% (around|at|from|of) %location%");
+                "[the] closest [(not |un)(explored|discovered)] %string% (in|within) [a] radius [of] %number% (around|at|from|of) %location%");
     }
 
     private Expression<String> type;
