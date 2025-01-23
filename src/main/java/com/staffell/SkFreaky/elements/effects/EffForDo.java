@@ -19,15 +19,12 @@ import org.jetbrains.annotations.Nullable;
 @Since("1.0")
 public class EffForDo extends Effect {
     static {
-        Skript.registerEffect(EffForDo.class, "for %~object% in %objects% (do|->) \\(<.+>\\) [cond:\\(if <.+>\\)]");
+        Skript.registerEffect(EffForDo.class, "for %~object% in %objects% (do|->) \\(<.+>\\)");
     }
 
     private Expression<?> index, looping;
     private String rawEffect;
-    private String rawCond;
-    private Effect parsedAction;
-    private Condition parsedCond;
-    private boolean hasCond = false;
+    private Effect parsedEffect;
 
     @Override
     public boolean init(Expression<?>[] expressions, int i, Kleenean kleenean, SkriptParser.ParseResult parseResult) {
@@ -39,29 +36,20 @@ public class EffForDo extends Effect {
             return false;
         }
         this.rawEffect = parseResult.regexes.get(0).group();
-        this.parsedAction = Effect.parse(this.rawEffect, "Can't understand this effect: " + rawEffect);
-        if (parseResult.hasTag("cond")) {
-            this.rawCond = parseResult.regexes.get(1).group();
-            this.parsedCond = Condition.parse(this.rawCond, "Can't understand this condition: " + rawCond);
-            if (parsedCond != null) this.hasCond = true;
-        }
-        return parsedAction != null;
+        this.parsedEffect = Effect.parse(this.rawEffect, "Can't understand this effect: " + rawEffect);
+        return parsedEffect != null;
     }
 
     @Override
     protected void execute(Event event) {
         for (Object value : this.looping.getArray(event)) {
-            if (this.hasCond) {
-                if (!this.parsedCond.check(event)) continue;
-            }
             this.index.change(event, new Object[] {value}, Changer.ChangeMode.SET);
-            parsedAction.run(event);
+            TriggerItem.walk(this.parsedEffect, event);
         }
     }
 
     @Override
     public String toString(@Nullable Event event, boolean debug) {
-        if (this.hasCond) return "for each " + this.index.toString(event, debug) + " in " + this.looping.toString(event, debug) + " do (" + this.rawEffect +") if (" + this.rawCond + ")";
         return "for each " + this.index.toString(event, debug) + " in " + this.looping.toString(event, debug) + " do (" + this.rawEffect +")";
     }
 }
